@@ -16,6 +16,11 @@ function message4(){
     document.getElementById("4th").style.border = "black solid 5px";
     document.getElementById("4th").style.borderRadius = "0%";
 }
+var count=0;
+function message5(){
+    count++;
+    console.log(count);
+}
 window.onclick = backgroundchange;
 function backgroundchange(){
     document.getElementsByTagName("Body")[0]
